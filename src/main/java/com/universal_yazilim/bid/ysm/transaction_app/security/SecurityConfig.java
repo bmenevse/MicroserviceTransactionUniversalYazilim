@@ -49,7 +49,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
     protected void configure(HttpSecurity httpSecurity) throws Exception
     {
         super.configure(httpSecurity);
-
+     // Commit yapılmasının testi
         httpSecurity.csrf().disable();
     }
 }

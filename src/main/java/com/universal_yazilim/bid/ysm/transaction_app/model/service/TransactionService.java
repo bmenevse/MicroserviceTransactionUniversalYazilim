@@ -49,7 +49,7 @@ public class TransactionService extends AbstractTransactionService
         {
             Util.showGeneralExceptionInfo(e);
             return null;
-            // CSFR-> Cross Site
+
         }
         catch (RuntimeException e) {
             Util.showGeneralExceptionInfo(e);
